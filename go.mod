@@ -1,4 +1,4 @@
-module github.com/Alexigbokwe/gonext-framework
+module github.com/Alexigbokwe/goNextCore
 
 go 1.24.4
 

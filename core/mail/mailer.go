@@ -2,8 +2,8 @@ package mail
 
 import (
 	"fmt"
-	"github.com/Alexigbokwe/gonext-framework/core/config"
-	"github.com/Alexigbokwe/gonext-framework/core/logger"
+	"github.com/Alexigbokwe/goNextCore/core/config"
+	"github.com/Alexigbokwe/goNextCore/core/logger"
 	"net/smtp"
 	"strings"
 

@@ -2,8 +2,8 @@ package events
 
 import (
 	"context"
-	"github.com/Alexigbokwe/gonext-framework/core/logger"
-	"github.com/Alexigbokwe/gonext-framework/core/utils"
+	"github.com/Alexigbokwe/goNextCore/core/logger"
+	"github.com/Alexigbokwe/goNextCore/core/utils"
 	"sync"
 
 	"go.uber.org/zap"

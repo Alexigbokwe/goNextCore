@@ -3,7 +3,7 @@ package test
 import (
 	"time"
 
-	"github.com/Alexigbokwe/gonext-framework/core"
+	"github.com/Alexigbokwe/goNextCore/core"
 
 	"github.com/hibiken/asynq"
 )

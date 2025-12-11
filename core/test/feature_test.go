@@ -2,9 +2,9 @@ package test
 
 import (
 	"context"
-	"github.com/Alexigbokwe/gonext-framework/core"
-	"github.com/Alexigbokwe/gonext-framework/core/security"
-	"github.com/Alexigbokwe/gonext-framework/core/utils"
+	"github.com/Alexigbokwe/goNextCore/core"
+	"github.com/Alexigbokwe/goNextCore/core/security"
+	"github.com/Alexigbokwe/goNextCore/core/utils"
 	"testing"
 	"time"
 

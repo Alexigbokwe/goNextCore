@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Alexigbokwe/gonext-framework/core/config"
+	"github.com/Alexigbokwe/goNextCore/core/config"
 	"sync"
 	"time"
 

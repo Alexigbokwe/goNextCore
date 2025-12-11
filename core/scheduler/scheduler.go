@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"github.com/Alexigbokwe/gonext-framework/core/logger"
+	"github.com/Alexigbokwe/goNextCore/core/logger"
 
 	"github.com/robfig/cron/v3"
 	"go.uber.org/zap"
