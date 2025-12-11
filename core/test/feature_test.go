@@ -2,11 +2,12 @@ package test
 
 import (
 	"context"
+	"testing"
+	"time"
+
 	"github.com/Alexigbokwe/goNextCore/core"
 	"github.com/Alexigbokwe/goNextCore/core/security"
 	"github.com/Alexigbokwe/goNextCore/core/utils"
-	"testing"
-	"time"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -20,7 +21,7 @@ func NewTestService() *TestService {
 }
 
 func TestDIInvoke(t *testing.T) {
-	c := app.NewContainer()
+	c := core.NewContainer()
 	c.Register(NewTestService())
 
 	// Test function with injection
